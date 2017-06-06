@@ -1,23 +1,23 @@
 {
-  "name": "passport-smartnsf",
-  "version": "0.9.0",
-  "description": "Passport Strategy to use with SmartNSF / IBM Domino as authentication Backend",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://stash.openntf.org/scm/xrapi/passport-smartnsf.git"
-  },
-  "keywords": [
-    "passport",
-    "smartNSF"
-  ],
-  "author": "Christian Guedemann",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "passport-strategy": "^1.0.0",
-    "request": "^2.81.0"
-  }
+    "name": "passport-smartnsf",
+    "version": "0.9.0",
+    "description": "Passport Strategy to use with SmartNSF / IBM Domino as authentication Backend",
+    "main": "./lib/passport-smartnsf/",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://stash.openntf.org/scm/xrapi/passport-smartnsf.git"
+    },
+    "keywords": [
+        "passport",
+        "smartNSF"
+    ],
+    "author": "Christian Guedemann",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "passport-strategy": "^1.0.0",
+        "request": "^2.81.0"
+    }
 }
