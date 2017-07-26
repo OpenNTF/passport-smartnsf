@@ -1,10 +1,10 @@
 {
-    "name": "passport-smartnsf",
+    "name": "@openntf/passport-smartnsf",
     "version": "0.1.0",
     "description": "Passport Strategy to use with SmartNSF / IBM Domino as authentication Backend",
     "main": "./lib/passport-smartnsf",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "./node_modules/.bin/mocha --reporter spec"
     },
     "repository": {
         "type": "git",
@@ -19,5 +19,9 @@
     "dependencies": {
         "passport-strategy": "^1.0.0",
         "request": "^2.81.0"
+    },
+    "devDependencies": {
+        "chai": "^4.0.2",
+        "mocha": "^3.4.2"
     }
 }

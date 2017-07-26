@@ -39,7 +39,7 @@ Options:
 ### Examples ###
 
     passport.use(new SmartNSFStrategy( {
-        smartNSFHost: 'https://example.org'
+        smartNSFHost: 'https://example.org',
         smartNSFPath: '/apps/somewhere.nsf'
        },
        function(userdetails, done) {
@@ -48,8 +48,8 @@ Options:
          });
        },
        function(req, credentials) {
-          credentials.username: req.body.username,
-          credentials.password: req.body.password
+          credentials.username= req.body.username,
+          credentials.password= req.body.password
        }
     ));
 
